@@ -23,4 +23,9 @@
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;I_{k}^n(x_1,...,x_n)=x_k,{\;}\forall{n}\in{\mathbb{N}},{\;}1\le{k}\le{n}"> - проектираща (координатна) функция.
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;\overline{f_n}=\{f|f:\mathbb{N}^n\nrightarrow{\mathbb{N}\}"> - <img src="https://latex.codecogs.com/svg.latex?\Large&space;f"> е тотална, ако <img src="https://latex.codecogs.com/svg.latex?\Large&space;Dom(f)=\mathbb{N}^n">
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;\overline{f_n}=\{f|f:\mathbb{N}^n\nrightarrow{\mathbb{N}\}"> - <img src="https://latex.codecogs.com/svg.latex?\Large&space;f"> е тотална, ако <img src="https://latex.codecogs.com/svg.latex?\Large&space;Dom(f)=\mathbb{N}^n">.
+- композиция <img src="https://latex.codecogs.com/svg.latex?\Large&space;h=f\cdot{g}\Leftrightarrowh(x)\stackrel{\text{def}}{=}g(f(x))">.
+- суперпозиция: по дадени <img src="https://latex.codecogs.com/svg.latex?\Large&space;f_1,...,f_k\in\overline{f_n}"> и <img src="https://latex.codecogs.com/svg.latex?\Large&space;g\in{\overline{f_k}}">, дефинираме нов функция <img src="https://latex.codecogs.com/svg.latex?\Large&space;h=g(f_1,...,f_k)\in{\overline{f_n}}"> по следния начин <img src="https://latex.codecogs.com/svg.latex?\Large&space;h(x_1,...,x_n)\stackrel{\text{def}}{=}g(f_1(x_1,...,x_n),...,f_k(x_1,...,x_n))">. 
+
+Примитивна рекурсия
+
