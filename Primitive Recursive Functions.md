@@ -20,3 +20,7 @@
 Изходни (базисни) примитивно рекурсивни функции:
 - <img src="https://latex.codecogs.com/svg.latex?\Large&space;\vartheta{(x)}=0">, за <img src="https://latex.codecogs.com/svg.latex?\Large&space;\forall{x}\in\mathbb{N}">  
 - <img src="https://latex.codecogs.com/svg.latex?\Large&space;S{(x)}=x+1">, за <img src="https://latex.codecogs.com/svg.latex?\Large&space;\forall{x}\in\mathbb{N}">  
+
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;I_{k}^n(x_1,...,x_n)=x_k,{\;}\forall{n}\in{\mathbb{N}},{\;}1\le{k}\le{n}"> - проектираща (координатна) функция.
+
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;\overline{f_n}=\{f|f:\mathbb{N}^n\nrightarrow{\mathbb{N}}"> - <img src="https://latex.codecogs.com/svg.latex?\Large&space;f"> е тотална, ако <img src="https://latex.codecogs.com/svg.latex?\Large&space;Dom(f)=\mathbb{N}^n">
