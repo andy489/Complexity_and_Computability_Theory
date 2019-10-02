@@ -18,4 +18,5 @@
 - <img src="https://latex.codecogs.com/svg.latex?\Large&space;Dom(f)"> - дефиниционна област на <img src="https://latex.codecogs.com/svg.latex?\Large&space;f:{\;}\{\overline{x}|!f(\overline{x})\}"> - множеството на тези <img src="https://latex.codecogs.com/svg.latex?\Large&space;\overline{x}">, за които <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(\overline{x})"> е дефинирана 
 
 Изходни (базисни) примитивно рекурсивни функции:
-- <img src="https://latex.codecogs.com/svg.latex?\Large&space;"> 
+- <img src="https://latex.codecogs.com/svg.latex?\Large&space;\vartheta{(x)}=0">, за <img src="https://latex.codecogs.com/svg.latex?\Large&space;\forall{x}\in\mathbb{N}">  
+- <img src="https://latex.codecogs.com/svg.latex?\Large&space;S{(x)}=x+1">, за <img src="https://latex.codecogs.com/svg.latex?\Large&space;\forall{x}\in\mathbb{N}">  
