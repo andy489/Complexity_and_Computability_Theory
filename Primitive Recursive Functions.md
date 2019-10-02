@@ -23,4 +23,4 @@
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;I_{k}^n(x_1,...,x_n)=x_k,{\;}\forall{n}\in{\mathbb{N}},{\;}1\le{k}\le{n}"> - проектираща (координатна) функция.
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;\overline{f_n}=\{f|f:\mathbb{N}^n\nrightarrow{\mathbb{N}}"> - <img src="https://latex.codecogs.com/svg.latex?\Large&space;f"> е тотална, ако <img src="https://latex.codecogs.com/svg.latex?\Large&space;Dom(f)=\mathbb{N}^n">
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;\overline{f_n}=\{f|f:\mathbb{N}^n\nrightarrow{\mathbb{N}\}"> - <img src="https://latex.codecogs.com/svg.latex?\Large&space;f"> е тотална, ако <img src="https://latex.codecogs.com/svg.latex?\Large&space;Dom(f)=\mathbb{N}^n">
