@@ -27,5 +27,11 @@
 - композиция <img src="https://latex.codecogs.com/svg.latex?\Large&space;h=f\cdot{g}\Leftrightarrowh(x)\stackrel{\text{def}}{=}g(f(x))">.
 - суперпозиция: по дадени <img src="https://latex.codecogs.com/svg.latex?\Large&space;f_1,...,f_k\in\overline{f_n}"> и <img src="https://latex.codecogs.com/svg.latex?\Large&space;g\in{\overline{f_k}}">, дефинираме нов функция <img src="https://latex.codecogs.com/svg.latex?\Large&space;h=g(f_1,...,f_k)\in{\overline{f_n}}"> по следния начин <img src="https://latex.codecogs.com/svg.latex?\Large&space;h(x_1,...,x_n)\stackrel{\text{def}}{=}g(f_1(x_1,...,x_n),...,f_k(x_1,...,x_n))">. 
 
-Примитивна рекурсия
+Примитивна рекурсия:
 
+Пример - <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x)=1">, ако <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=0">. <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x)=f(x-1).x">, в противен случай. <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x)=x!">.
+
+Казваме, че <img src="https://latex.codecogs.com/svg.latex?\Large&space;f"> се дефинира чрез примитивна рекурсия от <img src="https://latex.codecogs.com/svg.latex?\Large&space;g">, ако :
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;\begin{cases}f(0)=c\\f(x+1)=g(x,f(x))\end{cases}">.
+
+примера за <img src="https://latex.codecogs.com/svg.latex?\Large&space;x!">: <img src="https://latex.codecogs.com/svg.latex?\Large&space;\begin{cases}f(0)=1\\f(x+1)=(x+1).f(x)\end{cases}">, <img src="https://latex.codecogs.com/svg.latex?\Large&space;c=1,{\;}g(x,y)=(x+1).y">
