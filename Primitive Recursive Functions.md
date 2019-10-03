@@ -67,10 +67,23 @@
 - ако <img src="https://latex.codecogs.com/svg.latex?\Large&space;f"> е примитивна рекурсия на <img src="https://latex.codecogs.com/svg.latex?\Large&space;g"> и <img src="https://latex.codecogs.com/svg.latex?\Large&space;h">, които са тотални, тогава по твърдение 2 - <img src="https://latex.codecogs.com/svg.latex?\Large&space;f"> е тотална.<br>
 (Очевидно само тези две операции не са достатъчни, защото затворихме един компакт, а извън него съществуват функции, които не са тотални)
 
-Въвеждаме операцията минимизация (<img src="https://latex.codecogs.com/svg.latex?\Large&space;\mu">-операция, *while* цикъл (*Клини*))<br>
+Въвеждаме операцията *минимизация* (<img src="https://latex.codecogs.com/svg.latex?\Large&space;\mu">-операция, *while* цикъл (*Клини*))<br>
 Нека <img src="https://latex.codecogs.com/svg.latex?\Large&space;g"> е <img src="https://latex.codecogs.com/svg.latex?\Large&space;\overline{f_{n+1}}">. Дефинираме <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x_1,...,x_n)\cong{\mu}y[g(x_1,...,x_n,y)\cong{0}]"> и ще наричаме това минимизация на <img src="https://latex.codecogs.com/svg.latex?\Large&space;g">.
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;f"> се дефинира по следния начин:
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;\overline{f}\cong{y}\stackrel{\text{def.}}{\Leftrightarrow}g(\overline{x},y)\cong{0}{\;}{\;}\&{\;}{\;}\forall{z<y}:g(\overall{x},z)>0">
 
-*важно!* Така дефинираната <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(\overline{x}\ncong{min\{y|g(\overline{x},y)\cong{0}\}})">
+*важно!* Така дефинираната <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(\overline{x})\ncong{min\{y|g(\overline{x},y)\cong{0}\}})">. <img src="https://latex.codecogs.com/svg.latex?\Large&space;g(x,0)=\neg{!}">, докато <img src="https://latex.codecogs.com/svg.latex?\Large&space;g(x,1)=0">.
+
+*Тезис на Чърч: всяка числова функция, която може да се изчисли, може да се изчисли с машина на Тюринг.*
+
+*Деф.* <img src="https://latex.codecogs.com/svg.latex?\Large&space;f"> е *частично рекурсивна функция (ЧРФ)*, ако може да се получи от изходните чрез суперпозиция, примитивна рекурсия и/или минимизация (<img src="https://latex.codecogs.com/svg.latex?\Large&space;\mu">-операция) приложени краен брой пъти.
+
+**Рекурсивни функции** (![Гьодел](https://bg.wikipedia.org/wiki/%D0%9A%D1%83%D1%80%D1%82_%D0%93%D1%8C%D0%BE%D0%B4%D0%B5%D0%BB))
+
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;f"> е *рекурсивна*. ако е частично рекурсивна и тотална функция.<br>
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;f(\overline{x})\cong{\mu{y}}[g(\overline{x},y)\cong{0}]"><br>
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;g(x,y)=x+1(=S(x))>0"> за <img src="https://latex.codecogs.com/svg.latex?\Large&space;\forall{x}">.<br>
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x)\cong{\mu{y}}[g(x,y)\cong{0}]"> - не е дефинирана за никое <img src="https://latex.codecogs.com/svg.latex?\Large&space;x">. T.e. тази функция е ЧР и е тотална <img src="https://latex.codecogs.com/svg.latex?\Large&space;\Rightarrow"> не е рекурсивна.
+
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;\varnothing{(n)}"> - n местната никъде недефинирана функция.
