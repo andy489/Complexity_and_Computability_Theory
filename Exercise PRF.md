@@ -51,3 +51,6 @@ a)<br> <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x_1,...,x_n
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x,y+1)=max\{g(x,0),...,g(x,y)\}"><br><br>
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x,y+1)=max(max\{g(x,0),...,g(x,y)\},g(x,y+1))="><br><img src="https://latex.codecogs.com/svg.latex?\Large&space;=max(f(x,y),g(x,y+1))="> <br> 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;\begin{cases}f(x,0)=g(x,0)\\f(x,y+1)=max(f(x,y),g(x,y+1))=h(x,y,f(x,y)),{\;}h(x,y,z)=max(z,g(x,y))\end{cases}">
+
+**Задача 2.** <br> <img src="https://latex.codecogs.com/svg.latex?\Large&space;h(\overline{x})=max\{g(\overline{x},z)|z\le{b}(\overline{x}),{\;}g,b"> - фиксирани функции. Докажете, че ако <img src="https://latex.codecogs.com/svg.latex?\Large&space;g,b"> са примитивно рекурсивни, то и <img src="https://latex.codecogs.com/svg.latex?\Large&space;h"> e примитивно рекурсивна функция.
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;h(\overline{x})=f(\overline{x},b(\overline{x}))">, където <img src="https://latex.codecogs.com/svg.latex?\Large&space;f"> е функцията от *задача 1*.
