@@ -47,5 +47,5 @@
 С индукция по <img src="https://latex.codecogs.com/svg.latex?\Large&space;y"> ще докажем, че <img src="https://latex.codecogs.com/svg.latex?\Large&space;\forall{y}(P(y))">.<br>
 *База:* <img src="https://latex.codecogs.com/svg.latex?\Large&space;y=0">: <img src="https://latex.codecogs.com/svg.latex?\Large&space;f_1(\overline{x},y)\stackrel{\text{\ast}}{\cong}g(\overline{x})\Rightarrow{P(0)}"> и <img src="https://latex.codecogs.com/svg.latex?\Large&space;f_2(\overline{x},y)\stackrel{\text{\ast}}{\cong}g(\overline{x})\Rightarrow{P(0)}"> е вярно.<br>
 *Индукционна хипотеза:* Нека <img src="https://latex.codecogs.com/svg.latex?\Large&space;P(y)"> е вярно, т.е. <img src="https://latex.codecogs.com/svg.latex?\Large&space;\f_1(\overline{x},y)\cong{f_2(overline{x},y)}">.<br>
-*Индукционен преход (стъпка) за <img src="https://latex.codecogs.com/svg.latex?\Large&space;y+1">:* <img src="https://latex.codecogs.com/svg.latex?\Large&space;f_1(\overline{x},y+1)\cong{g(\overline{x},y,f(\overline{x},y))}\stackrel{\text{ind. hyp.}}{\cong}g()"> 
+*Индукционен преход (стъпка) за <img src="https://latex.codecogs.com/svg.latex?\Large&space;y+1">:* <img src="https://latex.codecogs.com/svg.latex?\Large&space;f_1(\overline{x},y+1)\cong{g(\overline{x},y,f(\overline{x},y))}"> 
 
