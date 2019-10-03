@@ -28,6 +28,8 @@
  **e)**<br> *аналогично на д)*<br><br><br>
  **ж)**<br><img src="https://latex.codecogs.com/svg.latex?\Large&space;x\stackrel{\text{o}}{-}y\stackrel{\text{def.}}{=}\begin{cases}x-y,{\;}x\ge{y}\\0,{\;}x<y\end{cases}">.<br>
  <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x,0)=x-0=x=I_{1}^{1}(x)"><br>
- <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x,y+1)=x-(y+1)\underbrace{=}_{?}(x-y)-1">
- Проверка: 1) <img src="https://latex.codecogs.com/svg.latex?\Large&space;x>y{\;}(x\ge{y+1})"><br>
- в ляво: <img src="https://latex.codecogs.com/svg.latex?\Large&space;x\stackrel{\text{o}}{-}(y+1)\stackrel{\text{def.}}{=}x-(y+1)=(x-y)-1=\underbrace{(x\stackrel{\text{o}}{-}y)}_{>0}\stackrel{\text{o}}{-}1">
+ <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x,y+1)=x-(y+1)\underbrace{=}_{?}(x-y)-1"><br>
+ Проверка: 1.) <img src="https://latex.codecogs.com/svg.latex?\Large&space;x>y{\;}(x\ge{y+1})"><br><br>
+ *от ляво:* <img src="https://latex.codecogs.com/svg.latex?\Large&space;x\stackrel{\text{o}}{-}(y+1)\stackrel{\text{def.}}{=}x-(y+1)=(x-y)-1=\underbrace{(x\stackrel{\text{o}}{-}y)}_{>0}\stackrel{\text{o}}{-}1"><br>
+2.) <img src="https://latex.codecogs.com/svg.latex?\Large&space;x\le{y}{\;}:{\;}x\stackrel{\text{o}}{-}(y+1)=0{\;};{\;}(x\stackrel{\text{o}}{-}y)\stackrel{\text{o}}{-}1=0">.<br>
+Функцията предшественик е примитивно рекурсивна, защото: <img src="https://latex.codecogs.com/svg.latex?\Large&space;pred(0)=0{\;};{\;}p(x+1)=(x+1)-1=x+1-1=x=I_{1}^{1}(x)=g(x,pred(x)),{\;}g(x,y)=x">
