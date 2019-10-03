@@ -54,7 +54,8 @@
  
  От дефиницията за примитивно рекурсивна функция се вижда че ако  <img src="https://latex.codecogs.com/svg.latex?\Large&space;g"> и  <img src="https://latex.codecogs.com/svg.latex?\Large&space;h"> са тотални, то и <img src="https://latex.codecogs.com/svg.latex?\Large&space;f"> - тяхната примитивна рекурсия (функцията, която се получава от тях чрез помощта на операцията примитивна рекурсия) също е тотална.<br>
  *Док-во:* (индукция по  <img src="https://latex.codecogs.com/svg.latex?\Large&space;y">)  <img src="https://latex.codecogs.com/svg.latex?\Large&space;\forall{\overline{x}}\forall{y}!f(\overline{x},y)">, фиксираме  <img src="https://latex.codecogs.com/svg.latex?\Large&space;\overline{x}{\;},{\;}{\;}P(y)\stackrel{\text{def.}}{\cong}!f(\overline{x},y)">.<br>
- *База:* 
+ *База:*  <img src="https://latex.codecogs.com/svg.latex?\Large&space;y=0{\;}:{\;}f(\overline{x},0)=g(\overline{x})"> - тотална по дефиниция.<br>
+ *Индукционна хипотеза:* Нека за някое <img src="https://latex.codecogs.com/svg.latex?\Large&space;y{\;}:{\;}P(y)\stackrel{\text{def.}}{\Leftrightarow}!f(\overline{x},y)">. Тогава за  <img src="https://latex.codecogs.com/svg.latex?\Large&space;y+1{\;}:{\;}f(\overline{x},y+1)\stackrel{\text{(\ast\)}}h(\overline{x},y,f(\overline{x},y))"> - също е дефинирана, защото  <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(\overline{x},y)"> e дефинирана от индукционната хипотеза.
 
 
 
