@@ -33,12 +33,12 @@
  **ж)**<br><img src="https://latex.codecogs.com/svg.latex?\Large&space;x\stackrel{\text{o}}{-}y\stackrel{\text{def.}}{=}\begin{cases}x-y,{\;}x\ge{y}\\0,{\;}x<y\end{cases}">.<br>
  <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x,0)=x-0=x=I_{1}^{1}(x)"><br>
  <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x,y+1)=x-(y+1)\underbrace{=}_{?}(x-y)-1"><br>
- Проверка: 1.) <img src="https://latex.codecogs.com/svg.latex?\Large&space;x>y{\;}(x\ge{y+1})"><br><br>
+ *Проверка:* 1.) <img src="https://latex.codecogs.com/svg.latex?\Large&space;x>y{\;}(x\ge{y+1})"><br><br>
  *от ляво:* <img src="https://latex.codecogs.com/svg.latex?\Large&space;x\stackrel{\text{o}}{-}(y+1)\stackrel{\text{def.}}{=}x-(y+1)=(x-y)-1=\underbrace{(x\stackrel{\text{o}}{-}y)}_{>0}\stackrel{\text{o}}{-}1"><br>
 2.) <img src="https://latex.codecogs.com/svg.latex?\Large&space;x\le{y}{\;}:{\;}x\stackrel{\text{o}}{-}(y+1)=0{\;};{\;}(x\stackrel{\text{o}}{-}y)\stackrel{\text{o}}{-}1=0">.<br>
 Функцията предшественик е примитивно рекурсивна, защото: <img src="https://latex.codecogs.com/svg.latex?\Large&space;pred(0)=0{\;};{\;}p(x+1)=(x+1)-1=x+1-1=x=I_{1}^{1}(x)=g(x,pred(x)),{\;}g(x,y)=x"><br><br><br>
-**з)**<br><img src="https://latex.codecogs.com/svg.latex?\Large&space;\begin{cases}sg(0)=0//sg\underbrace{(x+1)}_{>0}=1=S(\vartheta(x))"><br><br><br>
-**и)**<br> <img src="https://latex.codecogs.com/svg.latex?\Large&space;\overline{sg}(x)=1-sg(x)=1\stackrel{\text{o}}{-}sg(\overline{x})"><br><br><br>
- **й)**<br> <img src="https://latex.codecogs.com/svg.latex?\Large&space;min(x,y)=x\stackrel{\text{o}}{-}(x\stackrel{\text{o}}{-}y)"><br><br><br>
+**з)**<br><img src="https://latex.codecogs.com/svg.latex?\Large&space;\begin{cases}sg(0)=0//sg\underbrace{(x+1)}_{>0}=1=S(\vartheta(x))\end{cases}"><br><br>
+**и)**<br> <img src="https://latex.codecogs.com/svg.latex?\Large&space;\overline{sg}(x)=1-sg(x)=1\stackrel{\text{o}}{-}sg(\overline{x})"><br><br>
+ **й)**<br> <img src="https://latex.codecogs.com/svg.latex?\Large&space;min(x,y)=x\stackrel{\text{o}}{-}(x\stackrel{\text{o}}{-}y)"><br><br>
  **к)**<br> <img src="https://latex.codecogs.com/svg.latex?\Large&space;max(x,y)=x+(y\stackrel{\text{o}}{-}x)"><br>
  *Проверка:* 1.) <img src="https://latex.codecogs.com/svg.latex?\Large&space;x\ge{y}\Rightarrow{x}+(y\stackrel{\text{o}}{-}x)=x+0=x=max(x,0)"><br>2.) <img src="https://latex.codecogs.com/svg.latex?\Large&space;x<{y}\Rightarrow{x}+(y\stackrel{\text{o}}{-}x)=x+(y-x)=y=max(0,y)"><br>
