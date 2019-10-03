@@ -1,4 +1,4 @@
-## Сложност и Изчислимост 02.10.2019 г.
+## Сложност и Изчислимост Л. 02.10.2019 г.
 
 Подходи към формализиране на изчислимостта:
 - подход на Тюринг, *1936 г.* - машини на Тюринг
@@ -91,3 +91,7 @@
 ![](https://github.com/andy489/Data_Structures_and_Algorithms_CPP/blob/master/assets/Primitive%20Recursive%20Functions%2001.png)
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;f:\mathbb{N}^n\nrightarrow\mathbb{N},{\;}n=1,2,...\sim\mathbb{R}"><br><img src="https://latex.codecogs.com/svg.latex?\Large&space;A^{\ast}=\{\epsilon\}\cup{A}\cup{A^2}\cup{...}"> - изчислимите функции са изброимо много (т.е. нищожно малко в сравнение с всички функции, но достатъчно много за да се изучават)
+
+**Твърдение 4.** Нека <img src="https://latex.codecogs.com/svg.latex?\Large&space;f\in{\overline{f_k}},{\;}a{\;}{\;}i_1,...,i_k"> са числа между 1 и n (<img src="https://latex.codecogs.com/svg.latex?\Large&space;\in\{1,...,n\}">). Дефинираме <img src="https://latex.codecogs.com/svg.latex?\Large&space;y"> по следния начин:
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;g(x_1,...,x_n)\stackrel{\text{def.}}{\cong}f(x_{i_1},...,x_{i_k})">, тогава твърдим, че ако <img src="https://latex.codecogs.com/svg.latex?\Large&space;f"> е примитивна рекурсия, частична рекурсия или само рекурсия, то и <img src="https://latex.codecogs.com/svg.latex?\Large&space;g"> е такава.<br>
+*Док-во:* <img src="https://latex.codecogs.com/svg.latex?\Large&space;g(x_1,...,x_n)\cong{g(I_{i_1}^n(\overline{x}),...,\underbrace{I_{i_k}^n(\overline{x})}}{x_{i_k}}">
