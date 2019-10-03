@@ -94,4 +94,10 @@
 
 **Твърдение 4.** Нека <img src="https://latex.codecogs.com/svg.latex?\Large&space;f\in{\overline{f_k}},{\;}a{\;}{\;}i_1,...,i_k"> са числа между 1 и n (<img src="https://latex.codecogs.com/svg.latex?\Large&space;\in\{1,...,n\}">). Дефинираме <img src="https://latex.codecogs.com/svg.latex?\Large&space;y"> по следния начин:
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;g(x_1,...,x_n)\stackrel{\text{def.}}{\cong}f(x_{i_1},...,x_{i_k})">, тогава твърдим, че ако <img src="https://latex.codecogs.com/svg.latex?\Large&space;f"> е примитивна рекурсия, частична рекурсия или само рекурсия, то и <img src="https://latex.codecogs.com/svg.latex?\Large&space;g"> е такава.<br>
-*Док-во:* <img src="https://latex.codecogs.com/svg.latex?\Large&space;g(x_1,...,x_n)\cong{g\bigg(\underbrace{I_{i_1}^n(\overline{x})}_{x_{i_1}},...,\underbrace{I_{i_k}^n(\overline{x})}_{x_{i_k}}\bigg)">
+*Док-во:* <img src="https://latex.codecogs.com/svg.latex?\Large&space;g(x_1,...,x_n)\cong{g\bigg(\underbrace{I_{i_1}^n(\overline{x})}_{x_{i_1}},...,\underbrace{I_{i_k}^n(\overline{x})}_{x_{i_k}}\bigg){\;}{\;}\Rightarrow{\;}{\;}g=f(I_{i_1}^{n},...,I_{i_k}^{n})">.<br>
+*Частни случай:*<br>
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;g(x)\cong{f}(x,x)">;<br>
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;g(x,y)\cong{f}(x)">;<br>
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;g(x,y)\cong{f}(y,x)">;<br>
+удвояване на аргумент, въвеждане на фиктивни аргументи, размяна на аргументи (всички пермутации) -> новите функции са със същите сложности.
+
