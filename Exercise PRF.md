@@ -44,10 +44,10 @@
  *Проверка:*<br> 1.) <img src="https://latex.codecogs.com/svg.latex?\Large&space;x\ge{y}\Rightarrow{x}+(y\stackrel{\text{o}}{-}x)=x+0=x=max(x,0)"><br>2.) <img src="https://latex.codecogs.com/svg.latex?\Large&space;x<{y}\Rightarrow{x}+(y\stackrel{\text{o}}{-}x)=x+(y-x)=y=max(0,y)"><br>
 
 **Задача 1.** <br>a) Докажете, че: <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x_1,...,x_n)=max(x_1,...,x_n)"> е примитивно рекурсивна функция.<br>б) <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x,y)\stackrel{\text{def.}}{=}max\{g(x,z)|z\le{y}\}"> докажете, че ако <img src="https://latex.codecogs.com/svg.latex?\Large&space;g"> е примитивно рекурсивна функция, то и <img src="https://latex.codecogs.com/svg.latex?\Large&space;f"> е такава.<br><br>
-*Док-во:*<br>
-a) <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x_1,...,x_n)=max(x_1,max(x_2,max(...x_{n-2}(max(x_{n-1},x_n))...)))">
+*Док-во:*<br><br>
+a)<br> <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x_1,...,x_n)=max(x_1,max(x_2,max(...x_{n-2}(max(x_{n-1},x_n))...)))">
 
-б) <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x,0)=max\{g(x,z)|z\le{0}\}=g(x,0)"><br>
+б)<br> <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x,0)=max\{g(x,z)|z\le{0}\}=g(x,0)"><br>
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x,y+1)=max\{g(x,0),...,g(x,y)\}"><br>
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x,y+1)=max(max\{g(x,0),...,g(x,y)\},g(x,y+1))=max(f(x,y),g(x,y+1))"><br><img src="https://latex.codecogs.com/svg.latex?\Large&space;=max(f(x,y),g(x,y+1))">
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x,y+1)=max(max\{g(x,0),...,g(x,y)\},g(x,y+1))=max(f(x,y),g(x,y+1))"> <br><br> <img src="https://latex.codecogs.com/svg.latex?\Large&space;=max(f(x,y),g(x,y+1))">
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;\begin{cases}f(x,0)=g(x,0)\\f(x,y+1)=max(f(x,y),g(x,y+1))=h(x,y,f(x,y)),{\;}h(x,y,z)=max(z,g(x,y))\end{cases}">
