@@ -89,3 +89,5 @@
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;\varnothing{(n)}"> - n местната никъде недефинирана функция.
 
 ![](https://github.com/andy489/Data_Structures_and_Algorithms_CPP/blob/master/assets/Primitive%20Recursive%20Functions%2001.png)
+
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;f:\mathbb{N}^n\nrightarrow\mathbb{N},{\;}n=1,2,...\equiv\mathbb{R}">
