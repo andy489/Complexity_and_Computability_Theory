@@ -8,7 +8,11 @@
 **г)** <img src="https://latex.codecogs.com/svg.latex?\Large&space;{\;}f_3(x,y)=x^y"><br><br>
 **д)** <img src="https://latex.codecogs.com/svg.latex?\Large&space;{\;}f_4(x,y)=\underbrace{x^{x^{{.^{.^x}}}}}_{y}"><br><br>
 **е)** <img src="https://latex.codecogs.com/svg.latex?\Large&space;{\;}f_5(x,y)=\underbrace{x\diamond{x\diamond{...(x\diamond{x})})})}_{y}">, където <img src="https://latex.codecogs.com/svg.latex?\Large&space;x\diamond{y}=f_4(x,y)"><br><br>
-**ж)** <img src="https://latex.codecogs.com/svg.latex?\Large&space;{\;}f_6(x,y)=x\stackrel{\text{o}}{-}y">, където <img src="https://latex.codecogs.com/svg.latex?\Large&space;{\;}pred(x)=x\stackrel{\text{o}}{-}1\stackrel{\text{def.}}{=}\begin{cases}x-1,{\;}x\ge{1}\\0,{\;}x=0\end{cases}"> е функция *предшественик*<br>
+**ж)** <img src="https://latex.codecogs.com/svg.latex?\Large&space;{\;}f_6(x,y)=x\stackrel{\text{o}}{-}y">, където <img src="https://latex.codecogs.com/svg.latex?\Large&space;{\;}pred(x)=x\stackrel{\text{o}}{-}1\stackrel{\text{def.}}{=}\begin{cases}x-1,{\;}x\ge{1}\\0,{\;}x=0\end{cases}"> е функция *предшественик*<br><br>
+**з)** <img src="https://latex.codecogs.com/svg.latex?\Large&space;sg(x)=\begin{cases}0,{\;}x=0\\1,{\;}>0\end{cases}"><br><br>
+**и)** <img src="https://latex.codecogs.com/svg.latex?\Large&space;\overline{sg}(x)=\begin{cases}1,{\;}x=0\\0,{\;}>0\end{cases}"><br><br>
+**й)** <img src="https://latex.codecogs.com/svg.latex?\Large&space;min(x,y)"><br><br>
+**к)** <img src="https://latex.codecogs.com/svg.latex?\Large&space;max(x,y)"><br><br>
 
 ***Док-во***<br><br><br>
 **а)**<br> <img src="https://latex.codecogs.com/svg.latex?\Large&space;C_{a}^{n}(x_1,...,x_n)=S\bigg(S\big(...\underbrace{\vartheta{(\underbrace{I_{1}^{n}(x_1,...,x_n)}_{x_1}}}_{0}\big)...\big)\bigg)=a">, където <img src="https://latex.codecogs.com/svg.latex?\Large&space;a"> е фиксирано.<br><br><br>
@@ -32,4 +36,9 @@
  Проверка: 1.) <img src="https://latex.codecogs.com/svg.latex?\Large&space;x>y{\;}(x\ge{y+1})"><br><br>
  *от ляво:* <img src="https://latex.codecogs.com/svg.latex?\Large&space;x\stackrel{\text{o}}{-}(y+1)\stackrel{\text{def.}}{=}x-(y+1)=(x-y)-1=\underbrace{(x\stackrel{\text{o}}{-}y)}_{>0}\stackrel{\text{o}}{-}1"><br>
 2.) <img src="https://latex.codecogs.com/svg.latex?\Large&space;x\le{y}{\;}:{\;}x\stackrel{\text{o}}{-}(y+1)=0{\;};{\;}(x\stackrel{\text{o}}{-}y)\stackrel{\text{o}}{-}1=0">.<br>
-Функцията предшественик е примитивно рекурсивна, защото: <img src="https://latex.codecogs.com/svg.latex?\Large&space;pred(0)=0{\;};{\;}p(x+1)=(x+1)-1=x+1-1=x=I_{1}^{1}(x)=g(x,pred(x)),{\;}g(x,y)=x">
+Функцията предшественик е примитивно рекурсивна, защото: <img src="https://latex.codecogs.com/svg.latex?\Large&space;pred(0)=0{\;};{\;}p(x+1)=(x+1)-1=x+1-1=x=I_{1}^{1}(x)=g(x,pred(x)),{\;}g(x,y)=x"><br><br><br>
+**з)**<br><img src="https://latex.codecogs.com/svg.latex?\Large&space;\begin{cases}sg(0)=0//sg\underbrace{(x+1)}_{>0}=1=S(\vartheta(x))"><br><br><br>
+**и)**<br> <img src="https://latex.codecogs.com/svg.latex?\Large&space;\overline{sg}(x)=1-sg(x)=1\stackrel{\text{o}}{-}sg(\overline{x})"><br><br><br>
+ **й)**<br> <img src="https://latex.codecogs.com/svg.latex?\Large&space;min(x,y)=x\stackrel{\text{o}}{-}(x\stackrel{\text{o}}{-}y)"><br><br><br>
+ **к)**<br> <img src="https://latex.codecogs.com/svg.latex?\Large&space;max(x,y)=x+(y\stackrel{\text{o}}{-}x)"><br>
+ *Проверка:* 1.) <img src="https://latex.codecogs.com/svg.latex?\Large&space;x\ge{y}\Rightarrow{x}+(y\stackrel{\text{o}}{-}x)=x+0=x=max(x,0)"><br>2.) <img src="https://latex.codecogs.com/svg.latex?\Large&space;x<{y}\Rightarrow{x}+(y\stackrel{\text{o}}{-}x)=x+(y-x)=y=max(0,y)"><br>
