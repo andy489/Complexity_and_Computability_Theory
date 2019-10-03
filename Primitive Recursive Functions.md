@@ -57,3 +57,8 @@
  *База:*  <img src="https://latex.codecogs.com/svg.latex?\Large&space;y=0{\;}:{\;}f(\overline{x},0)=g(\overline{x})"> - тотална по дефиниция.<br>
  *Индукционна хипотеза:* Нека за някое <img src="https://latex.codecogs.com/svg.latex?\Large&space;y{\;}:{\;}P(y)\stackrel{\text{def.}}{\Leftrightarrow}!f(\overline{x},y)">. Тогава за <img src="https://latex.codecogs.com/svg.latex?\Large&space;y+1{\;}:{\;}f(\overline{x},y+1)\stackrel{\text{*}}{\cong}h(\overline{x},y,f(\overline{x},y))"> - също е дефинирана, защото <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(\overline{x},y)"> е дефинирана от индукционната хипотеза.
 
+Това технически означава, че само с тези две операции не може да стигнем далеч, а под далеч разбираме че няма да може да си достигнем желаната цел, която беше да формализираме операциите.
+
+*Деф.* Ще казваме, че една функция <img src="https://latex.codecogs.com/svg.latex?\Large&space;f"> е примитивно рекурсивна функция, ако <img src="https://latex.codecogs.com/svg.latex?\Large&space;f"> може да се получи от изходните функции чрез суперпозиция и/или примитивна рекурсия.
+
+*Твърдение 3.*
