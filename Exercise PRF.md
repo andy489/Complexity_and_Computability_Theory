@@ -25,5 +25,9 @@
  <img src="https://latex.codecogs.com/svg.latex?\Large&space;f_4(x,0)=\underbrace{x^{x^{{.^{.^x}}}}}_{0}=1"><br>
  <img src="https://latex.codecogs.com/svg.latex?\Large&space;f_4(x,y+1)=\underbrace{x^{x^{{.^{.^x}}}}}_{y+1}=x^{\underbrace{x^{{.^{.^x}}}}_{y}}=x^{f_4(x,y)}">.<br>
  При <img src="https://latex.codecogs.com/svg.latex?\Large&space;y=0{\;}:{\;}f_4(x,0+1)\stackrel{\text{def.}}{=}x=x^{f_4(x,0)}=x"><br><br><br>
- **e)**<br> аналогично на д)<br><br><br>
- **ж)**<br>
+ **e)**<br> *аналогично на д)*<br><br><br>
+ **ж)**<br><img src="https://latex.codecogs.com/svg.latex?\Large&space;x\stackrel{\text{o}}{-}y\stackrel{\text{def.}}{=}\begin{cases}x-y,{\;}x\ge{y}\\0,{\;}x<y\end{cases}">.<br>
+ <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x,0)=x-0=x=I_{1}^{1}(x)"><br>
+ <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x,y+1)=x-(y+1)\underbrace{=}_{?}(x-y)-1">
+ Проверка: 1) <img src="https://latex.codecogs.com/svg.latex?\Large&space;x>y{\;}(x\ge{y+1})"><br>
+ в ляво: <img src="https://latex.codecogs.com/svg.latex?\Large&space;x\stackrel{\text{o}}{-}(y+1)\stackrel{\text{def.}}{=}x-(y+1)=(x-y)-1=\underbrace{(x\stackrel{\text{o}}{-}y)}_{>0}\stackrel{\text{o}}{-}1">
