@@ -69,3 +69,8 @@
 
 Въвеждаме операцията минимизация (<img src="https://latex.codecogs.com/svg.latex?\Large&space;\mu">-операция, *while* цикъл (*Клини*))<br>
 Нека <img src="https://latex.codecogs.com/svg.latex?\Large&space;g"> е <img src="https://latex.codecogs.com/svg.latex?\Large&space;\overline{f_{n+1}}">. Дефинираме <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x_1,...,x_n)\cong{\mu}y[g(x_1,...,x_n,y)\cong{0}]"> и ще наричаме това минимизация на <img src="https://latex.codecogs.com/svg.latex?\Large&space;g">.
+
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;f"> се дефинира по следния начин:
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;\overline{f}\cong{y}\stackrel{\text{def.}}{\Leftrightarrow}g(\overline{x},y)\cong{0}{\;}{\;}\&{\;}{\;}\forall{z<y}:g(\overall{x},z)>0">
+
+*важно!* Така дефинираната <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(\overline{x}\ncong{min\{y|g(\overline{x},y)\cong{0}\}})">
