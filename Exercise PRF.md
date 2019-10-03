@@ -19,6 +19,11 @@
  <img src="https://latex.codecogs.com/svg.latex?\Large&space;f_2(x,0)=x.0=0=\vartheta{(x)}"><br>
  <img src="https://latex.codecogs.com/svg.latex?\Large&space;f_2(x,y+1)=x.(y+1)=x.y+x=f_2(x,y)\underbrace{+}_{PRF}x=h(x,y,f_2(x,y))">,<br>където <img src="https://latex.codecogs.com/svg.latex?\Large&space;h(x,y,z)=x+z">. T.e. <img src="https://latex.codecogs.com/svg.latex?\Large&space;f_2"> се получава с помощта на операцията *примитивна рекурсия* от 0 и събиранетои следователно е *примитивно рекурсивна функция*. (0 е базова ПРФ, а събирането доказахме, че е ПРФ в *а)*)<br><br><br>
  **г)**<br><img src="https://latex.codecogs.com/svg.latex?\Large&space;f_3(x,y)=x^y"><br>
- <img src="https://latex.codecogs.com/svg.latex?\Large&space;f_3(x,0)=x^0=1=S(\vartheta{x})">
+ <img src="https://latex.codecogs.com/svg.latex?\Large&space;f_3(x,0)=x^0=1=S(\vartheta{x})"><br>
  <img src="https://latex.codecogs.com/svg.latex?\Large&space;f_3(x,y+1)=x^{y+1}=x^y.x=f_3(x,y).x=f_2(x,f_3(x,y))=h(x,y,f_3(x,y))">.<br><br><br>
- **д)**<br>
+ **д)**<br><img src="https://latex.codecogs.com/svg.latex?\Large&space;f_4(x,y)=\underbrace{x^{x^{{.^{.^x}}}}}_{y}"> - суперстепенуване.<br><img src="https://latex.codecogs.com/svg.latex?\Large&space;x^{y^z}\stackrel{\text{def.}}{=}x^{(y^z)}"><br>
+ <img src="https://latex.codecogs.com/svg.latex?\Large&space;f_4(x,0)=\underbrace{x^{x^{{.^{.^x}}}}}_{0}=1"><br>
+ <img src="https://latex.codecogs.com/svg.latex?\Large&space;f_4(x,y+1)=\underbrace{x^{x^{{.^{.^x}}}}}_{y+1}=x^{\underbrace{x^{{.^{.^x}}}}_{y}}=x^{f_4(x,y)}">.<br>
+ При <img src="https://latex.codecogs.com/svg.latex?\Large&space;y=0{\;}:{\;}f_4(x,0+1)\stackrel{\text{def.}}{=}x=x^{f_4(x,0)}=x"><br><br><br>
+ **e)**<br> аналогично на д)<br><br><br>
+ **ж)**<br>
