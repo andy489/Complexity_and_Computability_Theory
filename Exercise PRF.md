@@ -45,4 +45,4 @@
 
 **Задача 1.** <br>a) Докажете, че: <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x_1,...,x_n)=max(x_1,...,x_n)"> е примитивно рекурсивна функция.<br>б) <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x,y)\stackrel{\text{def.}}{=}max\{g(x,z)|z\le{y}\}"> докажете, че ако <img src="https://latex.codecogs.com/svg.latex?\Large&space;g"> е примитивно рекурсивна функция, то и <img src="https://latex.codecogs.com/svg.latex?\Large&space;f"> е такава.<br><br>
 
-a) *Док-во:* <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x_1,...,x_n)=max(x_1,max(x_2(...(max(x_{n-1},x_n)...))))">
+a) *Док-во:* <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x_1,...,x_n)=max(x_1,max(x_2,max(...x_{n-2}(max(x_{n-1},x_n))...)))">
