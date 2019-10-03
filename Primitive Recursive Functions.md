@@ -87,3 +87,5 @@
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x)\cong{\mu{y}}[g(x,y)\cong{0}]"> - не е дефинирана за никое <img src="https://latex.codecogs.com/svg.latex?\Large&space;x">. T.e. тази функция е ЧР и е тотална <img src="https://latex.codecogs.com/svg.latex?\Large&space;\Rightarrow"> не е рекурсивна.
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;\varnothing{(n)}"> - n местната никъде недефинирана функция.
+
+![](https://github.com/andy489/Data_Structures_and_Algorithms_CPP/blob/master/assets/Primitive%20Recursive%20Functions%2001.png)
