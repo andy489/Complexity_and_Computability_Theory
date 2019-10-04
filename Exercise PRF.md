@@ -47,6 +47,28 @@
 *Док-во:*<br><br>
 a)<br> <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x_1,...,x_n)=max(x_1,max(x_2,max(...x_{n-2}(max(x_{n-1},x_n))...)))">
 
+*Итеративна програма, която симулира примитивна рекурсия за намирането на най-големия от 5 елемента:*
+```cpp
+#include <iostream>
+int max(int x, int y)
+{
+	return x > y ? x : y;
+}
+int main()
+{
+	int a, b; std::cin >> a >> b;
+
+	int result(max(a, b));
+	for (size_t i = 0; i < 3; i++)
+	{
+		int c; std::cin >> c;
+		result = max(result, c);
+	}
+	std::cout << result;
+	return 0;
+}
+```
+
 б)<br> <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x,0)=max\{g(x,z)|z\le{0}\}=g(x,0)"><br>
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x,y+1)=max\{g(x,0),...,g(x,y)\}"><br><br>
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x,y+1)=max(max\{g(x,0),...,g(x,y)\},g(x,y+1))="><br><img src="https://latex.codecogs.com/svg.latex?\Large&space;=max(f(x,y),g(x,y+1))="> <br> 
