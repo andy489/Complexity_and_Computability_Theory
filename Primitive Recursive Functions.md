@@ -7,7 +7,7 @@
 
 Частични функции: <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x)=\frac{1}{x};{\;}f(x)=\log_{2}x"> - не са дефинирани върху цялото множество <img src="https://latex.codecogs.com/svg.latex?\Large&space;\mathbb{R}"> на реалните числа.
 
-По-надолу, където споменаваме *функция* ще разбираме <img src="https://latex.codecogs.com/svg.latex?\Large&space;f:\mathbb{N}^n\nrightarrow\mathbb{N}">, където <img src="https://latex.codecogs.com/svg.latex?\Large&space;\mathbb{N}=\{0,1,2,...\}"> (частично рекурсивна функция).
+По-надолу, където споменаваме *функция* ще разбираме <img src="https://latex.codecogs.com/svg.latex?\Large&space;f:\mathbb{N}^n\nrightarrow\mathbb{N}">, където <img src="https://latex.codecogs.com/svg.latex?\Large&space;\mathbb{N}=\{0,1,2,...\}"> (частично дефинирана функция).
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x_1,...,x_n)=f(\overline{x})">.
 
