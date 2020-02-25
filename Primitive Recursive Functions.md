@@ -50,7 +50,7 @@
 *Индукционна хипотеза:* Нека <img src="https://latex.codecogs.com/svg.latex?\Large&space;P(y)"> е вярно, т.е. <img src="https://latex.codecogs.com/svg.latex?\Large&space;\f_1(\overline{x},y)\cong{f_2(overline{x},y)}">.<br>
 *Индукционен преход (стъпка) за <img src="https://latex.codecogs.com/svg.latex?\Large&space;y+1">:* <img src="https://latex.codecogs.com/svg.latex?\Large&space;f_1(\overline{x},y+1)\cong{g(\overline{x},y,f(\overline{x},y))}\stackrel{\text{ind.{\:}hyp.}}{\cong}g(\overline{x},y,f_2(\overline{x},y))\cong{f_2(\overline{x},y+1)}">. С това твърдението е доказано.
 
-Да разгледаме функцията на Маккарти (![McCarthy 91 function](https://en.wikipedia.org/wiki/McCarthy_91_function)). Тя дава ясен пример за това, какво не е примитивна рекурсия.<br> Имаме, че <img src="https://latex.codecogs.com/svg.latex?\Large&space;M(n)=\begin{cases}n-10,{\;}{\;}if{\;}n>100\\M(M(n+11)),{\;}{\;}if{\;}n\le{100}\end{cases}">. Tя дава ясен пример за това как при всяка итерация (навлизане в рекурсията) се отдалечаваме от базовия случай (дъното на рекурсията). В този случай, няма как да знаем дали рекурсията изобщо ще спре някога, за това тя не е примитивна. Въпреки това, в тои случай, тя спира. Например:
+Да разгледаме функцията на Маккарти ([McCarthy 91 function](https://en.wikipedia.org/wiki/McCarthy_91_function)). Тя дава ясен пример за това, какво не е примитивна рекурсия.<br> Имаме, че <img src="https://latex.codecogs.com/svg.latex?\Large&space;M(n)=\begin{cases}n-10,{\;}{\;}if{\;}n>100\\M(M(n+11)),{\;}{\;}if{\;}n\le{100}\end{cases}">. Tя дава ясен пример за това как при всяка итерация (навлизане в рекурсията) се отдалечаваме от базовия случай (дъното на рекурсията). В този случай, няма как да знаем дали рекурсията изобщо ще спре някога, за това тя не е примитивна. Въпреки това, в тои случай, тя спира. Например:
  <img src="https://latex.codecogs.com/svg.latex?\Large&space;М(102)=92,{\;}M(103)=93,...">.
  
 **Твърдение 2.** От дефиницията за примитивно рекурсивна функция се вижда че ако  <img src="https://latex.codecogs.com/svg.latex?\Large&space;g"> и  <img src="https://latex.codecogs.com/svg.latex?\Large&space;h"> са тотални, то и <img src="https://latex.codecogs.com/svg.latex?\Large&space;f"> - тяхната примитивна рекурсия (функцията, която се получава от тях чрез помощта на операцията примитивна рекурсия) също е тотална.<br>
@@ -80,7 +80,7 @@
 
 *Деф.* <img src="https://latex.codecogs.com/svg.latex?\Large&space;f"> е *частично рекурсивна функция (ЧРФ)*, ако може да се получи от изходните чрез суперпозиция, примитивна рекурсия и/или минимизация (<img src="https://latex.codecogs.com/svg.latex?\Large&space;\mu">-операция) приложени краен брой пъти.
 
-**Рекурсивни функции** (![Гьодел](https://bg.wikipedia.org/wiki/%D0%9A%D1%83%D1%80%D1%82_%D0%93%D1%8C%D0%BE%D0%B4%D0%B5%D0%BB))
+**Рекурсивни функции** ([Гьодел](https://bg.wikipedia.org/wiki/%D0%9A%D1%83%D1%80%D1%82_%D0%93%D1%8C%D0%BE%D0%B4%D0%B5%D0%BB))
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;f"> е *рекурсивна*. ако е частично рекурсивна и тотална функция.<br>
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(\overline{x})\cong{\mu{y}}[g(\overline{x},y)\cong{0}]"><br>
