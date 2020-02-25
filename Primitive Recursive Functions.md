@@ -14,9 +14,9 @@
 *Означения:*
 - <img src="https://latex.codecogs.com/svg.latex?\Large&space;!f(\overline{x})"> - <img src="https://latex.codecogs.com/svg.latex?\Large&space;f"> е дефинирана в <img src="https://latex.codecogs.com/svg.latex?\Large&space;\overline{x}">
 - <img src="https://latex.codecogs.com/svg.latex?\Large&space;\neg{!}f(\overline{x})"> - <img src="https://latex.codecogs.com/svg.latex?\Large&space;f"> няма дефинирана стойност в <img src="https://latex.codecogs.com/svg.latex?\Large&space;\overline{x}">
-- <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(\overline{x})\cong{g(\overline{x})}"> - условно равенство <img src="https://latex.codecogs.com/svg.latex?\Large&space;\Leftrightrrow"> и двете функции са дефинирани и имат еднакви стойности:
+- <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(\overline{x})\cong{g(\overline{x})}"> условно равенство <img src="https://latex.codecogs.com/svg.latex?\Large&space;\Leftrightarrow"> и двете функции са дефинирани и имат еднакви стойности:
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;!f(\overline{x})\&!g(\overline{x})\&f(\overline{x})=g(\overline{x})"> или едновременно не са дефинирани: <img src="https://latex.codecogs.com/svg.latex?\Large&space;\neg{!}{f(\overline{x})}\&\neg{!}{g(\overline{x})}">  
-- <img src="https://latex.codecogs.com/svg.latex?\Large&space;Dom(f)"> - дефиниционна област на <img src="https://latex.codecogs.com/svg.latex?\Large&space;f:{\;}\{\overline{x}|!f(\overline{x})\}"> - множеството на тези <img src="https://latex.codecogs.com/svg.latex?\Large&space;\overline{x}">, за които <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(\overline{x})"> е дефинирана 
+- <img src="https://latex.codecogs.com/svg.latex?\Large&space;Dom(f)"> - дефиниционна област на <img src="https://latex.codecogs.com/svg.latex?\Large&space;f:{\;}\{\overline{x}|!f(\overline{x})\}"> множеството на тези <img src="https://latex.codecogs.com/svg.latex?\Large&space;\overline{x}">, за които <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(\overline{x})"> е дефинирана 
 
 Изходни (базисни) примитивно рекурсивни функции:
 - <img src="https://latex.codecogs.com/svg.latex?\Large&space;\vartheta{(x)}=0">, за <img src="https://latex.codecogs.com/svg.latex?\Large&space;\forall{x}\in\mathbb{N}">  
