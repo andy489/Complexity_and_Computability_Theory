@@ -5,7 +5,7 @@
 - подход на Тюринг, *1936 г.* - машини на Тюринг
 - подход на Клини, *1936 г.* - частично рекурсивни функции
 
-Частични функции: <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x)=\frac{1}{x};{\;}f(x)=\log_{2}x"> - не са дефинирани върху цялото множество <img src="https://latex.codecogs.com/svg.latex?\Large&space;\mathbb{R}"> на реалните числа.
+Частични функции: <img src="https://latex.codecogs.com/svg.latex?f(x)=\frac{1}{x};{\;}f(x)=\log_{2}x"> - не са дефинирани върху цялото множество <img src="https://latex.codecogs.com/svg.latex?\Large&space;\mathbb{R}"> на реалните числа.
 
 По-надолу, където споменаваме *функция* ще разбираме <img src="https://latex.codecogs.com/svg.latex?f:\mathbb{N}^n\nrightarrow\mathbb{N}">, където <img src="https://latex.codecogs.com/svg.latex?\mathbb{N}=\{0,1,2,...\}"> (частично дефинирана функция).
 
