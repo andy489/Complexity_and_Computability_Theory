@@ -1,6 +1,20 @@
 ## Примитивно рекурсивни функции 
 *02.10.2019г.*
 
+### Examples:
+
+Here's a display level formula
+<p align="center"><img alt="$$&#10;\frac{n!}{k!(n-k)!} = {n \choose k}&#10;$$" src="svgs/32737e0a8d5a4cf32ba3ab1b74902ab7.png?invert_in_darkmode" align=middle width="127.89183pt" height="39.30498pt"/></p>
+
+The code that was used to render this formula is just
+
+    $$
+    \frac{n!}{k!(n-k)!} = {n \choose k}
+    $$
+
+<sub>*Note: you can escape \$ so that they don't render.*</sub>
+
+Here's an inline formula. 
 **Твърдение 5.** Следните функции са примитивно рекурсивни:<br>
 **а)** <img src="https://latex.codecogs.com/svg.latex?\Large&space;C_{a}^{n}(x_1,...,x_n)\stackrel{\text{def.}}{\cong}{a},{\;}\forall{\overline{x}\in{\mathbb{N}}},{\;}n\ge{1},a\in{\mathbb{N}}">;<br>
 **б)** <img src="https://latex.codecogs.com/svg.latex?f_1(x,y)=x+y"><br>
